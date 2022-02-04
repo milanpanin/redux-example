@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app{
+    max-width: 820px;
+    margin: 75px auto;
+    text-align: center;
+  }
+  
+  .app .content{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  
+  .component{
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  
+  .level1{
+    width: 320px;
+  }
+  
+  .component1, .component2{
+    width: 250px;
+    margin: 25px auto;
+  }
+  
+  h3{
+    margin: 0 0 15px 0;
+  }
+  
+  button{
+    margin: 10px;
+    padding: 2px 15px;
+  }
+  
+  p{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+  
+  p span{
+    color: brown;
+    font-weight: bold;
+    font-size: 24px;
+  }
